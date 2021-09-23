@@ -1,4 +1,4 @@
-package vn.edu.giadinh.tuan2.lab1;
+package com.phatnt2008110174.lab1;
 
 import java.util.Scanner;
 
