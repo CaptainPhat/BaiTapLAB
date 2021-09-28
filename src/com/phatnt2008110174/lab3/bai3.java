@@ -27,7 +27,7 @@ public class bai3 {
                 }
             }
         }
-        System.out.println("bat xuat mang");
+        System.out.println("bat dau xuat mang da duoc sap xep");
         for (int i = 0; i<n ; i++ )
         {
             System.out.printf("a[%d] = %d\n",i , a[i] );
