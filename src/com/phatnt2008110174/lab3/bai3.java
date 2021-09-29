@@ -46,6 +46,6 @@ public class bai3 {
                 tong += a[i];
             }
         }
-       System.out.print("tong la: "+tong);
+       System.out.print("tong cac so chia het cho 3 la: "+tong);
     }
 }
