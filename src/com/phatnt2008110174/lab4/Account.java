@@ -12,28 +12,28 @@ public class Account {
    Scanner nhap = new Scanner(System.in);
   Account(int a , int b)
   {
-    a = nhap.nextInt();
-    b = nhap.nextInt();
       account_number = a;
-      account_number = b;
+      account_balance = b;
   }
    void showdata ()
     {
         System.out.println("Account number: "+ account_number);
         System.out.println("Account balance: "+ account_balance);
     }
-    void guitien(int tiengui)
+    void guitien()
     {
+        int tiengui;
         System.out.println("nhap so tien can gui: ");
-        account_balance = nhap.nextInt(); 
+        tiengui = nhap.nextInt(); 
         account_balance += tiengui;
-        System.out.println(account_balance);
+        System.out.println("account_balance"+account_balance);
     }
-    void ruttien(int tienrut)
+    void ruttien()
     {
+        int tienrut;
         System.out.println("nhap so tien can rut: ");
-        account_balance = nhap.nextInt();
+        tienrut = nhap.nextInt();
         account_balance -= tienrut;
-        System.out.println(account_balance);
+        System.out.println("account_balance"+account_balance);
     }
 }

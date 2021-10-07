@@ -4,9 +4,13 @@
 */
 package vn.edu.giadinh.tuan2.baitaplamquen;
 
+import java.util.Scanner;
+
 public class AccountTest {
    public static void main(String[] args) {
-       Account account = new Account(2008110174,500);
+    Scanner n = new Scanner(System.in);
+    String a = n.nextLine();
+    System.out.println(a);
    }
     
 }

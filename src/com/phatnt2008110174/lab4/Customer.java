@@ -9,22 +9,39 @@ import java.util.Scanner;
 public class Customer {
     String Customer_name;
     String Customer_address;
+   String number,Customer_number;
+    String name , address;
     Scanner nhap = new Scanner(System.in);
-    Customer(String name, String address)
+    Customer()
     {
-        Customer_name = name;
-        Customer_address = address;
+        // Customer_name = name;
+        // Customer_address = address;
+        // Customer_number = number;
     }
-   void getname( String name)
+   void getname()
     {
        System.out.println("nhap ten: ");
-        name = nhap.nextLine();
-        System.out.println("Customer_name"+" : "+Customer_name);
+        String name = nhap.nextLine();
+        Customer_name = name;
+        
     }
-    void getaddress(String address )
+    void getaddress()
     {
-        System.out.print("Dia chi: ");
-        address = nhap.nextLine();
         System.out.println("address = so nha - ten duong - phuong - quan - tp ;"); 
+        System.out.print("Dia chi: ");
+        String address = nhap.nextLine();
+        Customer_address = address;
+    }
+    void phone_number ()
+    {
+      System.out.println("nhap so dt: ");
+        number = nhap.nextLine();
+        Customer_number = number;
+    }
+    void showdata_customer()
+    {
+        System.out.println("Customer_name"+" : "+Customer_name);
+        System.out.println("Customer_address : "+Customer_address);
+        System.out.println("Customer_phone_number: "+Customer_number);
     }
 }
