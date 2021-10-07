@@ -8,23 +8,32 @@ import java.util.Scanner;
 
 public class Employee {
    int Employee_salary;
+   int salary; 
+   String name;
    String Employee_name;
    Scanner nhap = new Scanner(System.in);
-    Employee (int salary, String name)
+    Employee ()
     {
-        Employee_salary = salary;
-        Employee_name = name ;
+        // Employee_salary = salary;
+        // Employee_name = name ;
     }
 
-    void getname( String name)
+    void getname( )
     {
-        System.out.println("nhap ten: ");
-        name = nhap.nextLine();
-        System.out.println("Employee_name"+" : "+Employee_name);
+        System.out.println("nhap ten nhan vien: ");
+        String name = nhap.nextLine();
+        Employee_name = name ;
+        
     }
-    void getslary (int tienluong)
+    void getslary ()
     {
-        tienluong = 500;
-        System.out.println(tienluong+" $ ");
+        int tienluong = 500;
+        System.out.println("tien luong: "+tienluong+"$ ");
+        Employee_salary = tienluong ;
+    }
+    void showdata_Employee()
+    {
+        System.out.println("Employee_name"+" : "+Employee_name);
+        System.out.println("Employee_salary: "+ Employee_salary);
     }
 }
