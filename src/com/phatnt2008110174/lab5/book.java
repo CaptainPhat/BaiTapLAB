@@ -4,32 +4,17 @@
 */
 package com.phatnt2008110174.lab5;
 
-public class book {
-    int gianhap,giaban,soluong,namxuatban;
-    String nhaxuatban,loai;
-    void getgianhap(int a)
+public class Book {
+    String loai, nhaxuatban;
+    int soluong, gianhap,giaban,namxuatban;
+    Book(String Loai,String tacgia, int Soluong, int Gianhap, int Giaban,int Namsanxuat)
     {
-        gianhap=a;
-    }
-    void getgiaxat(int a)
-    {
-        giaban = a;
-    }
-    void getsoluong(int a)
-    {
-        soluong = a;
-    }
-    void getnamxuatban(int a)
-    {
-        namxuatban = a;
-    }
-    void getnhaxuatban(String a)
-    {
-        nhaxuatban = a;
-    }
-    void getloai(String aloai)
-    {
-        loai =  aloai;
+        loai = Loai;
+        nhaxuatban = tacgia;
+        soluong = Soluong;
+        gianhap = Gianhap;
+        giaban = Giaban;
+        namxuatban = Namsanxuat;
     }
     void showbook()
     {
@@ -41,3 +26,5 @@ public class book {
         System.out.println("nam san xuat: "+namxuatban);
     }
 }
+  
+    

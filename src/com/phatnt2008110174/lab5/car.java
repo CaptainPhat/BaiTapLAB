@@ -4,10 +4,10 @@
 */
 package com.phatnt2008110174.lab5;
 
-public class car {
+public class Car {
     String tenchuxe,hang,giayphep,loai;
    double soluong;
-    car (String chuxe, String hsx, String dong, double xang)
+    Car (String chuxe, String hsx, String dong, double xang)
     {
         tenchuxe = chuxe;
         hang = hsx;

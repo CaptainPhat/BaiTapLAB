@@ -8,41 +8,32 @@ import java.util.Scanner;
 
 public class bai4 {
     public static void main(String[] args) {
-       Scanner nhapn = new Scanner(System.in);
-        System.out.print("nhap so luong hoc sinh: ");
-        int n = nhapn.nextInt();
-        String[] ten = new String [50];
-        int[] diem= new int[50];
-        for (int i = 0; i<n ; i++)
-        {
-            System.out.println("nhap ten hoc sinh: ");
-           ten[i] = nhapn.nextLine();
-            System.out.println("nhap diem: ");
-            diem[i] = nhapn.nextInt();
-        }
-        for (int i  = 0 ; i < n ; i  ++ )
-        {
-            System.out.println("ten " + ten);
-            System.out.println("diem"+ diem);
-           if (diem[i] <5 )
-           {
-                System.out.println("hoc luc: yeu ");
-           }
-           else 
-           {
-               if (diem[i] < 6.5 && diem[i] > 5)
-               {
-                 System.out.println("hoc luc: trung");  
-               }
-                else
-                {
-                    if (diem[i] >6.5 && diem[i] < 7.5 )
-                    {
-                        System.out.println("hoc luc: kha");
-                    }
-                }
-           }
+       Scanner nhap = new Scanner(System.in);
+       System.out.print("nhap so luong hoc sinh :");
+       int n = nhap.nextInt();
+    //    String[] ten = new String [100];
+    //     String [] sa = new String[10];
+        int [] ad = new int [100];
+        char [] a  = new char[100];
+       int stt=0;
+       for (int i =1 ; i < n ; i++)
+       {
             
-        }
+            stt = i;
+             System.out.print(stt+" ");
+        // System.out.println(i);
+            // System.out.print("STT:" +i+"hoc sinh ten: ");
+            // System.out.printf("%d\n",i);
+            // ten [i] = nhap.nextLine();
+            // a [i] = nhap.nextLine();
+            // sa[i] = nhap.nextLine();
+            ad[i] = nhap.nextInt();
+           
+       }
+       for  (int i =1 ; i < n+1 ; i++)
+       {
+        //    System.out.println("i"+i+sa[i]);
+        //    System.out.println(ten[i]);
+       }
     }
 }

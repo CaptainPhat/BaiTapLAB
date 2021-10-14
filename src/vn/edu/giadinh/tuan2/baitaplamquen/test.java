@@ -4,16 +4,13 @@ import java.util.Scanner;
 
 public class test {
     public static void main(String[] args) {
-       int [] a = {9,3,8,7,3,9,4,2};
-       double tong = 0;
-       for (int x : a)
+       int n = 2 ;
+       Scanner ap = new Scanner(System.in);
+       String[] a = new String[10];
+       for (int i = 0; i<n ; i ++)
        {
-           if (x % 2 == 0 )
-           {
-               tong += x ;
-           }
+           a[i] = ap.nextLine();
        }
-       System.out.println("tong: "+tong);
       }
     }
 
