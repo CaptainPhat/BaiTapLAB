@@ -6,15 +6,15 @@ package com.phatnt2008110174.lap6;
 
 public class Circle {
     String amThanh =  "ret ret";
-    boolean click = false;
+    boolean Click = false;
      void xoay()
      {
          System.out.println("da xoay 360 do");
-         click = true;
+         Click = true;
      }
     void phatRaAmThanh()
      {
-        if (click = true)
+        if (Click = true)
         {
             System.out.println("insert am thanh hinh tron: "+amThanh);
         }

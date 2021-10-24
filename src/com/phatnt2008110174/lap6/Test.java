@@ -6,14 +6,17 @@ package com.phatnt2008110174.lap6;
 
 public class Test {
     public static void main(String[] args) {
-        Circle tron = new Circle();
+        Circle Tron = new Circle();
         Triangle tamGiac = new Triangle();
-        Square vuong = new Square();
-        tamGiac.xoay();
-        tamGiac.phatRaAmThanh();
-        vuong.xoay();
-        vuong.phatRaAmThanh();
-        tron.xoay();
-        tron.phatRaAmThanh();
+        Square Vuong = new Square();
+        Amoeba amoeba = new Amoeba(5, 19);
+        // tamGiac.xoay();
+        // tamGiac.phatRaAmThanh();
+        // Vuong.xoay();
+        // Vuong.phatRaAmThanh();
+        // Tron.xoay();
+        // Tron.phatRaAmThanh();
+        amoeba.xoay();
+        amoeba.phatRaAmThanh();
     }
 }
