@@ -2,7 +2,7 @@
 * create date: 24 thg 10, 2021
 * author: captainPhat
 */
-package vn.edu.giadinh.Test;
+package vn.edu.giadinh.tuan8;
 
 public class Hippo extends Animal {
     Hippo(){

@@ -2,7 +2,7 @@
 * create date: 21 thg 10, 2021
 * author: captainPhat
 */
-package vn.edu.giadinh.Test;
+package vn.edu.giadinh.tuan8;
 
 import java.util.jar.Attributes.Name;
 
