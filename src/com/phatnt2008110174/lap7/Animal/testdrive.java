@@ -16,7 +16,7 @@ public class testdrive {
         // dog.Sleep();
         // dog.Roam();
 
-        // Hipo hipo = new Hipo();
+        // Hippo hipo = new Hippo();
         // hipo.makeNoise();
         // hipo.Eat();
         // hipo.Sleep();
@@ -28,11 +28,11 @@ public class testdrive {
         // tiger.Sleep();
         // tiger.Roam();
 
-        // Cat cat = new Cat();
-        // cat.makeNoise();
-        // cat.Eat();
-        // cat.Sleep();
-        // cat.Roam();
+        Cat cat = new Cat();
+        cat.makeNoise();
+        cat.Eat();
+        cat.Sleep();
+        cat.Roam();
 
         Wolf wolf = new Wolf();
         wolf.makeNoise();
