@@ -4,7 +4,7 @@
 */
 package com.phatnt2008110174.lap7.Animal;
 
-public class Hipo extends Animal {
+public class Hippo extends Animal {
     protected void makeNoise(){
         System.out.println("hipo hipo");
     }

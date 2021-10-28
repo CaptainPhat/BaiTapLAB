@@ -5,6 +5,9 @@
 package com.phatnt2008110174.lap7.Animal;
 
 public class Cat extends Animal {
+    Cat (){
+        
+    }
     protected void makeNoise(){
         System.out.println("meo meo");
     }
