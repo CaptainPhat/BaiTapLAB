@@ -6,9 +6,9 @@ package com.phatnt2008110174.lap7.Shape;
 
 public class Triangle extends Shape{
     protected Triangle (String s){
-        Sound = s;
+        super(s);
     }
     protected void playSound(){
-        System.out.println("insert am thanh.AIF: "+ Sound);
+        System.out.println("insert am thanh.AIF: "+ getSound());
     }
 }

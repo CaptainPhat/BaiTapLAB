@@ -9,6 +9,7 @@ public class Amoeba extends Shape {
   protected int y;
    
    protected Amoeba(int xx, int yy,String s){
+        super(s);
         x = xx;
         y = yy;
         Sound = s;
@@ -19,6 +20,6 @@ public class Amoeba extends Shape {
      }
      protected void playSound()
      {
-        System.out.println("insert am thanh .HIF: "+ Sound);
+        System.out.println("insert am thanh .HIF: "+ getSound());
      }
 }
