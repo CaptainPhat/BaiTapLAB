@@ -6,38 +6,40 @@ package com.phatnt2008110174.lap7.Animal;
 
 public class testdrive {
     public static void main(String[] args) {
-        // Lion lion = new Lion();
-        // lion.makeNoise();
-        // lion.Eat();
+       Cat cat = new Cat("Picture of Cat", "ăn thức ăn cho mèo", 5, "o nha");
+       cat.makeNoise();
+       cat.Roam();
+       cat.Eat();
+       cat.Sleep();
 
-        // Dog dog = new Dog();
-        // dog.makeNoise();
-        // dog.Eat();
-        // dog.Sleep();
-        // dog.Roam();
+       Dog dog = new Dog("Picture of Dog", "Ăn thức ăn cho chó", 5, "ở nhà");
+       dog.makeNoise();
+       dog.Roam();
+       dog.Sleep();
+       dog.Eat();
 
-        // Hippo hipo = new Hippo();
-        // hipo.makeNoise();
-        // hipo.Eat();
-        // hipo.Sleep();
-        // hipo.Roam();
+       Lion lion = new Lion("Picture of Lion", "Thịt sống", 10, "công viên quốc gia");
+       lion.makeNoise();
+       lion.Roam();
+       lion.Roam();
+       lion.Eat();
 
-        // Tiger  tiger = new Tiger();
-        // tiger.makeNoise();
-        // tiger.Eat();
-        // tiger.Sleep();
-        // tiger.Roam();
+       Tiger tiger = new Tiger("Picture of Tiger", "Thịt sống", 10, "rừng");
+       tiger.makeNoise();
+       tiger.Roam();
+       tiger.Eat();
+       tiger.Sleep();
 
-        Cat cat = new Cat();
-        cat.makeNoise();
-        cat.Eat();
-        cat.Sleep();
-        cat.Roam();
+       Hippo hippo = new Hippo("Picture of Hippo","ăn đủ thứ", 10,"đàm lầy");
+       hippo.makeNoise();
+       hippo.Roam();
+       hippo.Eat();
+       hippo.Sleep();
 
-        Wolf wolf = new Wolf();
-        wolf.makeNoise();
-        wolf.Eat();
-        wolf.Sleep();
-        wolf.Roam();
+       Wolf wolf = new Wolf("Picture of Wolf", "Ăn thịt sống", 6, "rừng");
+       wolf.makeNoise();
+       wolf.Roam();
+       wolf.Eat();
+       wolf.Sleep();
     }
 }

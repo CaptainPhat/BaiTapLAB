@@ -5,7 +5,7 @@
 package com.phatnt2008110174.lap7.Shape;
 
 public class Shape {
-   protected String Sound;
+   private String Sound;
    public Shape(String s){
         Sound  = s;
    }

@@ -10,12 +10,12 @@ public class Test {
         Triangle tamGiac = new Triangle();
         Square Vuong = new Square();
         Amoeba amoeba = new Amoeba(5, 19);
-        // tamGiac.xoay();
-        // tamGiac.phatRaAmThanh();
-        // Vuong.xoay();
-        // Vuong.phatRaAmThanh();
-        // Tron.xoay();
-        // Tron.phatRaAmThanh();
+        tamGiac.xoay();
+        tamGiac.phatRaAmThanh();
+        Vuong.xoay();
+        Vuong.phatRaAmThanh();
+        Tron.xoay();
+        Tron.phatRaAmThanh();
         amoeba.xoay();
         amoeba.phatRaAmThanh();
     }

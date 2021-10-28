@@ -5,10 +5,19 @@
 package com.phatnt2008110174.lap7.Animal;
 
 public class Animal {
-    protected String Picture;
-    protected String Food;
-    protected int Hunger;
-    protected int location;
+    Animal(){   
+    }
+    Animal(String picture, String food , int hunger,String location)
+    {
+       System.out.println("hinh anh: "+(Picture = picture)); 
+        System.out.println("thuc an: "+(Food = food)); 
+        System.out.println("muc do doi: "+(Hunger = hunger)); 
+        System.out.println("dia diem sinh hoat: "+(Location = location));    
+    }
+    private String Picture;
+    private String Food;
+    private int Hunger;
+    private String Location;
   protected  void makeNoise(){
         System.out.println("AAAA");
     } 
@@ -20,5 +29,21 @@ public class Animal {
     }
    protected void Roam(){
         System.out.println("di lang thang");
+    }
+    
+    public String getPicture() {
+        return Picture;
+    }
+   
+    public String getFood() {
+        return Food;
+    }
+
+    public int getHunger() {
+        return Hunger;
+    }
+
+    public String getLocation() {
+        return Location;
     }
 }

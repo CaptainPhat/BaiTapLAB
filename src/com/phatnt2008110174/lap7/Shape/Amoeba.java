@@ -12,7 +12,6 @@ public class Amoeba extends Shape {
         super(s);
         x = xx;
         y = yy;
-        Sound = s;
     }
     protected void Rotate()
      {
