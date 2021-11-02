@@ -2,7 +2,7 @@
 * create date: 28 thg 10, 2021
 * author: captainPhat
 */
-package vn.edu.giadinh.Test;
+package com.phatnt2008110174.lap8.Shape;
 
 public class TestDrive {
     public static void main(String[] args) {
