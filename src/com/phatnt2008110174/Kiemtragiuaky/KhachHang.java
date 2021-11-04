@@ -17,6 +17,7 @@ public class KhachHang  extends Nguoi{
 
     public void setTriGiaHoaDon() {
         do{
+            System.out.println("nhap gia tri hoa don");
             triGiaHoaDon = n.nextDouble();
         }while (triGiaHoaDon < 0 && triGiaHoaDon >10);
     }
