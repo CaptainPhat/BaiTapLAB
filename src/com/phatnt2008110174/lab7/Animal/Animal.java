@@ -5,9 +5,9 @@
 package com.phatnt2008110174.lab7.Animal;
 
 public class Animal {
-    Animal(){   
+    public Animal(){   
     }
-    Animal(String picture, String food , int hunger,String location)
+    public Animal(String name, String picture, String food , int hunger,String location)
     {
        System.out.println("hinh anh: "+(Picture = picture)); 
         System.out.println("thuc an: "+(Food = food)); 
@@ -18,16 +18,17 @@ public class Animal {
     private String Food;
     private int Hunger;
     private String Location;
-  protected  void makeNoise(){
+    private String name;
+  public  void makeNoise(){
         System.out.println("AAAA");
     } 
-   protected void Eat(){
+    public void Eat(){
             System.out.println("an binh thuong");
     }
-   protected void Sleep(){
+    public void Sleep(){
         System.out.println("dang ngu");
     }
-   protected void Roam(){
+    public void Roam(){
         System.out.println("di lang thang");
     }
     
@@ -45,5 +46,14 @@ public class Animal {
 
     public String getLocation() {
         return Location;
+    }
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public void thongTin(){
+        System.out.println("Toi la: "+getName()+"toi co tam hinh dep ne: "+getPicture()+"do doi bung cua toi: "+ getHunger()+"do an cua toi la: "+ getFood()+"noi o cua toi: "+getLocation());
     }
 }

@@ -6,14 +6,14 @@ package com.phatnt2008110174.lab7.Animal;
 
 public class Wolf extends Canine {
     Wolf(){}
-    Wolf(String picture, String food, int hunger, String location) {
-        super(picture, food, hunger, location);
+    Wolf(String name,String picture, String food, int hunger, String location) {
+        super(name, picture, food, hunger, location);
         //TODO Auto-generated constructor stub
     }
-    protected void makeNoise(){
+    public void makeNoise(){
         System.out.println("wof wof");
     }
-    protected void Eat(){
+    public void Eat(){
         System.out.println("soi dang an");
     }
 }

@@ -5,15 +5,15 @@
 package com.phatnt2008110174.lab7.Animal;
 
 public class Canine extends Animal{
-    Canine(){   
+    public Canine(){   
     }
-    Canine(String picture, String food, int hunger, String location) {
-        super(picture, food, hunger, location);
+    public Canine(String name,String picture, String food, int hunger, String location) {
+        super(name, picture, food, hunger, location);
         //TODO Auto-generated constructor stub
     }
 
     @Override
-    protected void Roam() {
+    public void Roam() {
         System.out.println("di theo bay");
     }
 }
